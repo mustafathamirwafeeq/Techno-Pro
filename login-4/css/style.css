@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&family=Amiri:ital@1&family=Cairo:wght@400;500;700&family=Markazi+Text:wght@700&family=Noto+Kufi+Arabic:wght@300&family=Open+Sans&family=Reem+Kufi&family=Tajawal:wght@300&family=Ubuntu&display=swap');
+body{
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin:100px auto;
+  max-height:100vh;
+  background: linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(75,14,154,1)35%,rgba(0,212,255,1)100%);
+ 
+
+/*  background:#302f43; */
+}
+.container{
+    border-radius: 25px;
+    
+}
+h3{
+  font-weight: bold;
+}
+
+
+
+
+.gallery-img{
+ border-radius: 25px;
+ /* border: 5px solid; */
+  /*border-color:  #33cccc!important; */
+  box-shadow: 0 0 5px rgb(185, 183, 183);
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 600px;
+}
+.gallery-img:hover{
+  transform: scale(1.05 , 1.05);
+}
+
+
+
+

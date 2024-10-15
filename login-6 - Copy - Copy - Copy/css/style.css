@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&family=Amiri:ital@1&family=Cairo:wght@400;500;700&family=Markazi+Text:wght@700&family=Noto+Kufi+Arabic:wght@300&family=Open+Sans&family=Reem+Kufi&family=Tajawal:wght@300&family=Ubuntu&display=swap');
+
+body{
+  
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  /*margin:100px auto; */ 
+/*
+
+  background: linear-gradient(to right, #c33764, #1d2671);
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+*/
+ 
+background: linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(75,14,154,1)35%,rgba(0,212,255,1)100%);
+
+}
+
+/*
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  */
+
+nav{
+  position: sticky !important;
+  top: 0 !important;
+  overflow: hidden;
+}
+h2{
+  color: white !important;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+  
+  }
+.bg-teal{
+  background-color: 	rgba(0, 0, 0, 0.05);
+  font-family: 'Tajawal', sans-serif;
+}
+.logo-img{
+  border-radius: 50%;
+  margin-top: -5px;
+ box-shadow: 0 0 5px black; 
+}
+.container{
+    border-radius: 25px;
+    
+}
+h3{
+  font-weight: bold;
+}
+
+.img1{
+height: 350px;
+float: left;
+}
+
+.img-f1{
+  height: 400px;
+  float: left;
+  }
+
+
+.text ,span{
+  color: white !important;
+  font-family: 'Tajawal', sans-serif;
+}
+.bg{
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.gallery-img{
+  border-radius: 50px;
+ /* border: 5px solid; */
+  /*border-color:  #33cccc!important; */
+  box-shadow: 0 0 10px black;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.gallery-img:hover{
+  transform: scale(1.05 , 1.05);
+}
+.btn{
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn:hover{
+  transform: scale(1.09 , 1.09);
+}
+footer{
+  background-color:  rgba(0, 0, 0, 0.05);
+/*  position: relative; */
+}

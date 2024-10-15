@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="css/mdb.css"> 
+    <title>الصادر</title>
+</head>
+<body>
+  <!-- Main Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-teal fadeInUpBig">
+    <div class="container">
+        <a href="main.html" class="  navbar-brand ">
+          <img src="images/badge.png" width="60" height="60" alt="" class="logo-img">
+          الجامعة التكنولوجية
+        </a>
+        <h2>نظام الارشفة الالكترونية </h2>
+       </div>
+       </nav>
+       <!-- Settings Section -->
+<section class="p-2 bg-teal text-white animated flipInY">
+    <div class="container">
+        <div class="row animated flipInY ">
+            <h1>
+                <i class="fa-solid fa-file-arrow-up   ms-2 "></i>  الكتب الصادرة  </h1>
+        </div>
+    </div>
+</section>
+       <div class="container bg rounded-5 p-4 my-5 ">
+   
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-3">
+               
+               <div class="mb-3">
+           <input type="text" name="text"  placeholder="رقم الكتاب المؤرشف " class="form-control  shadow w-100"id="" autofocuse="true">
+               </div>
+               <div class="mb-3">
+                <input type="dropdownlist" name="password"  placeholder= "نوع الكتاب "class="form-control w-100"id="">
+               </div>
+               <div class="mb-3">
+                <input type="text" name="text"  placeholder="رقم الكتاب الصادر " class="form-control  shadow w-100"id="" autofocuse="true">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" name="text"  placeholder="الجهة الصادر منها الكتاب" class="form-control  shadow w-100"id="" autofocuse="true">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="text"  placeholder=" تاريخ الاجابة " class="form-control  shadow w-100"id="" autofocuse="true">
+                                    </div>
+                                    <!--
+                                    <div class="mb-3">
+                                        <input type="text" name="text"  placeholder="اسم المستخدم " class="form-control  shadow w-50"id="" autofocuse="true">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" name="text"  placeholder="اسم المستخدم " class="form-control  shadow w-50"id="" autofocuse="true">
+                                                    </div>
+                                                            -->
+            </div>
+            <div class="col-lg-3">
+               
+                <div class="mb-3">
+            <input type="text" name="text"  placeholder="تاريخ الكتاب " class="form-control  shadow w-100"id="" autofocuse="true">
+                </div>
+                <div class="mb-3">
+                 <input type="text" name="password"  placeholder="موضوع الكتاب " class="form-control w-100"id="">
+                </div>
+                <div class="mb-3">
+                 <input type="text" name="text"  placeholder="رقم الكتاب الوارد " class="form-control  shadow w-100"id="" autofocuse="true">
+                     </div>
+                     <div class="mb-3">
+                         <input type="text" name="text"  placeholder="الجهة المرسل اليها الكتاب " class="form-control  shadow w-100"id="" autofocuse="true">
+                             </div>
+                             <div class="mb-3">
+                                 <input type="text" name="text"  placeholder="الاجابة" class="form-control  shadow w-100"id="" autofocuse="true">
+                                     </div>
+                                     <!--
+                                     <div class="mb-3">
+                                         <input type="text" name="text"  placeholder="اسم المستخدم " class="form-control  shadow w-50"id="" autofocuse="true">
+                                             </div>
+                                             <div class="mb-3">
+                                                 <input type="text" name="text"  placeholder="اسم المستخدم " class="form-control  shadow w-50"id="" autofocuse="true">
+                                                     </div>
+                                                 -->   
+               </div>
+    
+            <div class="col-lg-6 d-flex justify-content-center fadeInUpBig">
+                <img src="/images/document.gif" alt="pic.1" class=" img-f1 d-none d-sm-block  gallery-img">
+            </div>
+           
+            </div>
+            <div class="row justify-content-start align-items-center">
+                <div class="col-12">
+                    <div class="mb-3">
+                      <!---->    <textarea class="form-control w-50" id="exampleFormControlTextarea1" rows="1" placeholder="اسم المحفظة "></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <!---->    <textarea class="form-control w-50" id="exampleFormControlTextarea1" rows="2" placeholder="الهامش "></textarea>
+                                      </div>
+                                      <div class="mb-3">
+                                        <!---->    <textarea class="form-control w-50" id="exampleFormControlTextarea1" rows="3" placeholder="الملاحظات"></textarea>
+                                              </div>
+                </div>
+                
+            </div>
+            <!--Button Section -->
+            <div class="row  justify-content-between align-items-center py-2">
+                
+                    
+                    <button type="button" class="btn btn-lg btn-primary col-12  col-md-2">حفـظ <i class="fa-regular fa-floppy-disk"></i> </button>
+                
+                
+                    
+                    <button type="button" class="btn btn-lg  btn-warning col-sm-12 col-md-2 ">حــذف <i class="fa-solid fa-minus"></i> </button>
+                
+                
+                
+                    <button type="button" class="btn btn-lg btn-success col-sm-12 col-md-2 ">اضــافة <i class="fa-solid fa-plus"></i></button>
+            
+                
+                    <button type="button" class="btn btn-lg btn-info col-sm-12 col-md-2 ">سكــنر <i class="fa-solid fa-expand"></i> </button>
+                
+                
+                    <button type="button" class="btn btn-lg btn-danger col-sm-12 col-md-2">خـــروج <i class="fa-regular fa-circle-xmark"></i></button>
+                
+
+
+
+                
+                
+            </div>
+            </div>
+            <!--End of Button Section -->
+            <!--
+            <div class="row  ">
+
+                <div class="col-12 d-flex align-items-center justify-content-center ">
+                    <button type="button" class="btn btn-primary mx-2">Primary</button>
+                    <button type="button" class="btn btn-secondary mx-2">Secondary</button>
+                    <button type="button" class="btn btn-success mx-2">Success</button>
+                    <button type="button" class="btn btn-danger mx-2">Danger</button>
+
+
+
+                </div>
+                
+            </div>
+        </div>
+        -->
+        
+
+        <footer class=" text-center text-lg-start  mb-1 ">
+            <!-- Copyright -->
+            <div class="text-center p-3" >
+            
+              <span>تصميم وتنفيذ (الجامعة التكنولوجية /مركز تكنولوجيا المعلومات)</span>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+<script src="js/all.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    
+</body>
+</html>
